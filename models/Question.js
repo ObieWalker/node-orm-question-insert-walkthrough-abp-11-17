@@ -22,6 +22,7 @@ class Question{
     return new Promise(function(resolve){
       const sql= `INSERT INTO questions`
 
+        resolve("this does")
     })
 
   }
