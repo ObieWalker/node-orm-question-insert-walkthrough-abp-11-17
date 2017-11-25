@@ -23,7 +23,7 @@ class Question{
     const self = this
     return new Promise(function(resolve){
       db.run(sql, [self.content], function(err, result){
-        resolve("Row inserted")
+        resolve("Row inserted!")
       })
     })
   }
